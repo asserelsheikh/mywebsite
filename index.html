@@ -1,105 +1,560 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Asser Elsheikh - Portfolio</title>
-    <link href="styles.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <title>Asser Elsheikh | Data Analyst</title>
+    <meta name="description"
+        content="Portfolio of Asser Elsheikh, a Data Analyst focused on health security and data-driven innovation.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Icons (Phosphor Icons for a clean, modern look) -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
+
 <body>
-    <div id="particles-js"></div>
-    
-    <header>
-        <nav>
-            <div class="logo">AE</div>
-            <div class="nav-links">
-                <a href="#home" class="active">Home</a>
-                <a href="#about">About</a>
-                <a href="#projects">Projects</a>
-                <a href="#certificates">Certificates</a>
-                <a href="#contact">Contact</a>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Asser<span>.Data</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact" class="btn-primary">Contact</a></li>
+            </ul>
+            <div class="mobile-menu-btn">
+                <i class="ph ph-list"></i>
             </div>
-            <div class="menu-btn">
-                <span></span>
-                <span></span>
-                <span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="eyebrow">Hello, I'm</span>
+                <h1>Asser Elsheikh</h1>
+                <h2>Medical Data Specialist</h2>
+                <p class="hero-text">Instructor at ADA Egypt | Medical Student & Tech Educator | Python & SQL Expert |
+                    Certified by Harvard, IBM & Google | Open to Remote Global Opportunities</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/asser-elsheikh-612227225" target="_blank"
+                        aria-label="LinkedIn"><i class="ph ph-linkedin-logo"></i></a>
+                    <a href="https://asserelsheikh.github.io/mywebsite/" target="_blank"
+                        aria-label="GitHub/Portfolio"><i class="ph ph-github-logo"></i></a>
+                    <a href="mailto:asermelsheikh@gmail.com" aria-label="Email"><i class="ph ph-envelope"></i></a>
+                </div>
             </div>
-        </nav>
+            <div class="hero-image">
+                <img src="profile.png" alt="Asser Elsheikh - Data Analyst">
+            </div>
+        </div>
     </header>
 
-    <main>
-        <section id="home" class="hero">
-            <div class="hero-content">
-                <h1>Asser Elsheikh</h1>
-                <p class="subtitle">Data Analyst & AI Specialist</p>
-                <div class="cta-buttons">
-                    <a href="#projects" class="cta-primary">View Projects</a>
-                    <a href="#contact" class="cta-secondary">Contact Me</a>
-                </div>
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="divider"></div>
             </div>
-        </section>
-
-        <section id="about" class="about">
-            <h2>About Me</h2>
             <div class="about-content">
-                <div class="about-text">
-                    <p>I am a passionate Data Analyst and AI Specialist with expertise in transforming complex data into actionable insights. My focus areas include:</p>
-                    <ul class="skills-list">
-                        <li><i class="fas fa-check"></i> Advanced Excel & SQL</li>
-                        <li><i class="fas fa-check"></i> Python & Data Science</li>
-                        <li><i class="fas fa-check"></i> Machine Learning</li>
-                        <li><i class="fas fa-check"></i> Tableau & Data Visualization</li>
-                        <li><i class="fas fa-check"></i> Statistical Analysis</li>
-                        <li><i class="fas fa-check"></i> Business Intelligence</li>
-                    </ul>
+                <p class="lead">Bridging the gap between Clinical Medicine and Advanced Data Science.</p>
+                <p>As a Medical Student and a Medical Data Specialist with 2.5 years of experience in the field, I don't
+                    just analyze numbers; I decode the stories they tell to improve healthcare outcomes.</p>
+                <p>My journey is fueled by a double passion: mastering the human body and mastering the code that
+                    analyzes its data. Currently, I serve as a Python & SQL Instructor at ADA Egypt, where I help others
+                    navigate the world of data.</p>
+                <p>My technical expertise is backed by international certifications from Harvard University (CS50), IBM,
+                    Google, and Oracle, alongside specialized health data training from WHO and UNICEF.</p>
+                <p>I am passionate about leveraging Machine Learning and Statistical Analysis to solve complex
+                    healthcare puzzles. I am currently open to Remote Global Opportunities where I can contribute to
+                    data-driven decision-making in the medical field.</p>
+
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">2.5+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">20+</span>
+                        <span class="stat-label">Certifications</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Major Projects</span>
+                    </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="projects" class="projects">
-            <h2>Projects</h2>
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Technical Skills</h2>
+                <div class="divider"></div>
+            </div>
+
+            <div class="skills-grid">
+                <!-- Populated via JS or hardcoded below -->
+                <div class="skill-category">
+                    <h3><i class="ph ph-code"></i> Programming & Analysis</h3>
+                    <div class="tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">SQL</span>
+                        <span class="tag">Pandas</span>
+                        <span class="tag">NumPy</span>
+                        <span class="tag">Matplotlib</span>
+                        <span class="tag">Seaborn</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="ph ph-chart-bar"></i> Visualization</h3>
+                    <div class="tags">
+                        <span class="tag">Tableau</span>
+                        <span class="tag">Power BI</span>
+                        <span class="tag">Looker Studio</span>
+                        <span class="tag">Excel</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="ph ph-trend-up"></i> Business Analytics</h3>
+                    <div class="tags">
+                        <span class="tag">Customer Segmentation</span>
+                        <span class="tag">Time Series</span>
+                        <span class="tag">Sales Forecasting</span>
+                        <span class="tag">Product Analysis</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="ph ph-toolbox"></i> Tools</h3>
+                    <div class="tags">
+                        <span class="tag">Jupyter Notebook</span>
+                        <span class="tag">Streamlit</span>
+                        <span class="tag">Google Sheets</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="ph ph-chat-centered-text"></i> Soft Skills</h3>
+                    <div class="tags">
+                        <span class="tag">Detail-oriented</span>
+                        <span class="tag">Analytical Thinker</span>
+                        <span class="tag">Clear Communicator</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Experience</h2>
+                <div class="divider"></div>
+            </div>
+
+            <div class="timeline">
+                <!-- Greenfoods -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">07/2023 – Present</div>
+                        <h3>Data Analyst and Cashier</h3>
+                        <h4>GREENFOODS – Ismailia, Egypt</h4>
+                        <ul>
+                            <li>Built a Point of Sale (POS) dashboard to streamline inventory and sales operations,
+                                boosting efficiency by 30%.</li>
+                            <li>Analyzed transactional data to reduce product overstock and wastage by 15%.</li>
+                            <li>Delivered actionable insights that improved business performance, leading to a promotion
+                                from cashier to data analyst.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Academy of Digital Arts -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">07/2025 – Present</div>
+                        <h3>Data Analysis Instructor</h3>
+                        <h4>Academy of Digital Arts – Ismailia, Egypt</h4>
+                        <ul>
+                            <li>Delivered beginner-friendly training sessions in Python, SQL, and Power BI.</li>
+                            <li>Guided students through hands-on projects, enabling them to apply data analysis skills.
+                            </li>
+                            <li>Provided one-on-one mentoring to help learners build confidence.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- DataCalculus -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">07/2025 – Present</div>
+                        <h3>Data Ambassador</h3>
+                        <h4>DataCalculus – Remote</h4>
+                        <ul>
+                            <li>Demonstrated the capabilities of DataCalculus to clients (automated segmentation,
+                                classification).</li>
+                            <li>Highlighted how the platform reduces analysis time and increases efficiency.</li>
+                            <li>Acted as a bridge between clients and the product team.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Quantium -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">09/2024 – 10/2024</div>
+                        <h3>Data Analyst Intern</h3>
+                        <h4>Quantium – Remote</h4>
+                        <ul>
+                            <li>Analyzed over 264,000 transactions using Python; improved operational efficiency by 20%.
+                            </li>
+                            <li>Created clear and compelling data visualizations with Pandas, Matplotlib, and Seaborn.
+                            </li>
+                            <li>Identified customer purchasing behavior patterns and delivered actionable marketing
+                                recommendations.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+                <div class="divider"></div>
+            </div>
+
             <div class="projects-grid">
-                <!-- Projects will be populated by JavaScript -->
-            </div>
-        </section>
-
-        <section id="certificates" class="certificates">
-            <h2>Certifications</h2>
-            <div class="certificates-grid">
-                <!-- Certificates will be populated by JavaScript -->
-            </div>
-        </section>
-
-        <section id="contact" class="contact">
-            <h2>Contact Me</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <a href="mailto:asermelsheikh@gmail.com">asermelsheikh@gmail.com</a>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fab fa-whatsapp"></i>
-                        <a href="https://wa.me/201226594205">+201226594205</a>
+                <!-- Chronic Disease Risk Analysis -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Chronic Disease Risk Analysis | NHANES</h3>
+                        <p class="project-desc">Performed a large-scale analysis of the NHANES dataset (2011-2023) to
+                            identify key predictors for chronic diseases (diabetes and hypertension).</p>
+                        <div class="project-tags">
+                            <span class="tag-sm">Python</span>
+                            <span class="tag-sm">Statistical Analysis</span>
+                            <span class="tag-sm">Data Cleaning</span>
+                        </div>
                     </div>
                 </div>
-                <form id="contact-form" class="contact-form">
-                    <input type="text" placeholder="Your Name" required>
-                    <input type="email" placeholder="Your Email" required>
-                    <textarea placeholder="Your Message" required></textarea>
-                    <button type="submit">Send Message</button>
-                </form>
+
+                <!-- Interactive Sales Forecasting Tool -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Interactive Sales Forecasting Tool</h3>
+                        <p class="project-desc">Interactive web application using Streamlit that enables users to upload
+                            time-series data, train forecasting models (ARIMA, Prophet), and visualize future sales
+                            predictions.</p>
+                        <div class="project-tags">
+                            <span class="tag-sm">Streamlit</span>
+                            <span class="tag-sm">Prophet</span>
+                            <span class="tag-sm">ARIMA</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mental Health in Tech -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Mental Health in Tech</h3>
+                        <p class="project-desc">Analyzed a global survey of 1,259 tech professionals to identify
+                            workplace mental health trends using sentiment scoring and statistical tests.</p>
+                        <div class="project-tags">
+                            <span class="tag-sm">NLP</span>
+                            <span class="tag-sm">Logistic Regression</span>
+                            <span class="tag-sm">Visualization</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Retail Customer Segmentation -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Retail Customer Segmentation</h3>
+                        <p class="project-desc">Analyzed over 9,800 retail transactions. conducted RFM segmentation to
+                            categorize customers and utilized time series analysis for sales trends.</p>
+                        <div class="project-tags">
+                            <span class="tag-sm">RFM Analysis</span>
+                            <span class="tag-sm">Time Series</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Store Trial Performance Analysis -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Store Trial Performance Analysis</h3>
+                        <p class="project-desc">Evaluated the performance of a new store layout trial by comparing sales
+                            revenue and customer behavior against control stores.</p>
+                        <div class="project-tags">
+                            <span class="tag-sm">A/B Testing</span>
+                            <span class="tag-sm">Data Merging</span>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-        </section>
-    </main>
+        </div>
+    </section>
 
-    <footer>
-        <p>&copy; 2024 Asser Elsheikh. All rights reserved.</p>
-    </footer>
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Education & Certifications</h2>
+                <div class="divider"></div>
+            </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
-    <script src="data.js"></script>
+            <div class="education-grid">
+                <div class="edu-item">
+                    <h3>Bachelor’s Degree in Medicine</h3>
+                    <p class="edu-school">Suez Canal University — Ismailia, Egypt</p>
+                    <p class="edu-date">Expected 2030</p>
+                </div>
+                <div class="edu-item">
+                    <h3>Aspire Leaders Program</h3>
+                    <p class="edu-school">Harvard Business School — Online</p>
+                    <p class="edu-date">2025</p>
+                </div>
+                <div class="edu-item">
+                    <h3>High School Diploma</h3>
+                    <p class="edu-school">Assiut STEM School — Assiut, Egypt</p>
+                    <p class="edu-date">2023</p>
+                </div>
+            </div>
+
+            <div class="certs-list">
+                <h3>Certifications & Courses</h3>
+                <div class="certs-grid">
+                    <div class="cert-card">
+                        <i class="ph ph-globe-stand cert-icon"></i>
+                        <div class="cert-info">
+                            <h4>Ambassador for Sustainable Development Initiative</h4>
+                            <span class="cert-issuer">National Institute for Governance and Sustainable Development
+                                (NIGSD)</span>
+                            <span class="cert-date">Oct 2025</span>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <i class="ph ph-leaf cert-icon"></i>
+                        <div class="cert-info">
+                            <h4>Green Digital Certificate</h4>
+                            <span class="cert-issuer">INCO Academy</span>
+                            <span class="cert-date">Oct 2025</span>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <i class="ph ph-certificate cert-icon"></i>
+                        <div class="cert-info">
+                            <h4>International license for institutional & personal Excellence and innovation</h4>
+                            <span class="cert-issuer">Arabian Board</span>
+                            <span class="cert-date">Sep 2025</span>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <i class="ph ph-google-logo cert-icon"></i>
+                        <div class="cert-info">
+                            <h4>Google Advanced Data Analytics Specialization</h4>
+                            <span class="cert-issuer">Google</span>
+                            <span class="cert-date">Aug 2025</span>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <i class="ph ph-bank cert-icon"></i>
+                        <div class="cert-info">
+                            <h4>Business Model program</h4>
+                            <span class="cert-issuer">Central Bank of Egypt</span>
+                            <span class="cert-date">Mar 2025</span>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <i class="ph ph-google-logo cert-icon"></i>
+                        <div class="cert-info">
+                            <h4>Google Data Analytics Professional Certificate</h4>
+                            <span class="cert-issuer">Google</span>
+                            <span class="cert-date">Mar 2025</span>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <i class="ph ph-cloud cert-icon"></i>
+                        <div class="cert-info">
+                            <h4>Oracle Cloud Infrastructure 2024 Certified AI Foundations Associate</h4>
+                            <span class="cert-issuer">Oracle</span>
+                            <span class="cert-date">Feb 2025</span>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <i class="ph ph-code cert-icon"></i>
+                        <div class="cert-info">
+                            <h4>CS50P: Programming with Python</h4>
+                            <span class="cert-issuer">Harvard University</span>
+                            <span class="cert-date">Dec 2024</span>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <i class="ph ph-briefcase cert-icon"></i>
+                        <div class="cert-info">
+                            <h4>Quantium - Data Analytics Job Simulation</h4>
+                            <span class="cert-issuer">Forage</span>
+                            <span class="cert-date">Oct 2024</span>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <i class="ph ph-robot cert-icon"></i>
+                        <div class="cert-info">
+                            <h4>Ai Careers Essential</h4>
+                            <span class="cert-issuer">ALX Arabia</span>
+                            <span class="cert-date">Jul 2024</span>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <i class="ph ph-chart-line-up cert-icon"></i>
+                        <div class="cert-info">
+                            <h4>Applied Data Science with Python</h4>
+                            <span class="cert-issuer">IBM</span>
+                            <span class="cert-date">Jul 2024</span>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <i class="ph ph-database cert-icon"></i>
+                        <div class="cert-info">
+                            <h4>CS50 SQL</h4>
+                            <span class="cert-issuer">Harvard University</span>
+                            <span class="cert-date">Jul 2024</span>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <i class="ph ph-graph cert-icon"></i>
+                        <div class="cert-info">
+                            <h4>Data Analytics Essentials</h4>
+                            <span class="cert-issuer">Cisco</span>
+                            <span class="cert-date">Jun 2024</span>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <i class="ph ph-brain cert-icon"></i>
+                        <div class="cert-info">
+                            <h4>Elements of Ai</h4>
+                            <span class="cert-issuer">University of Helsinki</span>
+                            <span class="cert-date">Apr 2024</span>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <i class="ph ph-first-aid cert-icon"></i>
+                        <div class="cert-info">
+                            <h4>Inequality analysis using R</h4>
+                            <span class="cert-issuer">World Health Organization</span>
+                            <span class="cert-date">Aug 2023</span>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <i class="ph ph-chart-pie-slice cert-icon"></i>
+                        <div class="cert-info">
+                            <h4>Data analysis and visualization</h4>
+                            <span class="cert-issuer">LinkedIn</span>
+                            <span class="cert-date">Aug 2023</span>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <i class="ph ph-shield-check cert-icon"></i>
+                        <div class="cert-info">
+                            <h4>Risk Management and Maturity</h4>
+                            <span class="cert-issuer">UNICEF</span>
+                            <span class="cert-date">Sep 2022</span>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <i class="ph ph-code cert-icon"></i>
+                        <div class="cert-info">
+                            <h4>Data Analysis with Python</h4>
+                            <span class="cert-issuer">freeCodeCamp</span>
+                            <span class="cert-date">Sep 2022</span>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <i class="ph ph-siren cert-icon"></i>
+                        <div class="cert-info">
+                            <h4>WHO Standard Operating Procedures (SOPs) for Emergencies</h4>
+                            <span class="cert-issuer">World Health Organization</span>
+                            <span class="cert-date">Sep 2022</span>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <i class="ph ph-laptop cert-icon"></i>
+                        <div class="cert-info">
+                            <h4>Learn to code for data analysis</h4>
+                            <span class="cert-issuer">The Open University</span>
+                            <span class="cert-date">Aug 2022</span>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <i class="ph ph-trophy cert-icon"></i>
+                        <div class="cert-info">
+                            <h4>Data Analysis Challenger Track</h4>
+                            <span class="cert-issuer">MCIT, Egypt</span>
+                            <span class="cert-date">Jul 2022</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-dark">
+        <div class="container contact-container">
+            <div class="section-header text-center">
+                <h2>Get In Touch</h2>
+                <p>Feel free to reach out for collaborations or just to say hi.</p>
+            </div>
+
+            <div class="contact-links text-center">
+                <a href="mailto:asermelsheikh@gmail.com" class="contact-btn"><i class="ph ph-envelope"></i>
+                    asermelsheikh@gmail.com</a>
+                <a href="tel:+201226594205" class="contact-btn"><i class="ph ph-phone"></i> +201226594205</a>
+                <a href="https://www.linkedin.com/in/asser-elsheikh-612227225" class="contact-btn"><i
+                        class="ph ph-linkedin-logo"></i> LinkedIn</a>
+            </div>
+
+            <footer>
+                <p>&copy; <span id="year"></span> Asser Elsheikh. All rights reserved.</p>
+            </footer>
+        </div>
+    </section>
+
     <script src="script.js"></script>
 </body>
+
 </html>
